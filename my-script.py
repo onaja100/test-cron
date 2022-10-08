@@ -5,6 +5,7 @@ import subprocess
   
 def sendmessage(message="test"):
     subprocess.Popen(['notify-send', message])
+    print('from github')
     print('test2')
     return
   

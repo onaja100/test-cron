@@ -5,7 +5,7 @@ import subprocess
   
 def sendmessage(message="test"):
     subprocess.Popen(['notify-send', message])
-    print('test')
+    print('test2')
     return
   
 if __name__ == '__main__':
